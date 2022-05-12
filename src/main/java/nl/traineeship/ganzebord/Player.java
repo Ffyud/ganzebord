@@ -1,4 +1,4 @@
-package nl.duo.traineeship.weekopdracht.ganzebord;
+package nl.traineeship.ganzebord;
 
 public class Player {
 

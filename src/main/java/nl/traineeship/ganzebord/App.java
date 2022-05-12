@@ -1,4 +1,4 @@
-package nl.duo.traineeship.weekopdracht.ganzebord;
+package nl.traineeship.ganzebord;
 
 import java.util.ArrayList;
 import java.util.Scanner;
