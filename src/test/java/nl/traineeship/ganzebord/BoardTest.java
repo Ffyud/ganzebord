@@ -9,6 +9,24 @@ public class BoardTest {
     Board board = new Board(100);
 
     @Test
+    public void testCurrentTurn() {
+        board.setCurrentTurn(5);
+        assertEquals(5, board.getCurrentTurn());
+    }
+
+    @Test
+    public void testDoATurn() {
+        board.setCurrentTurn(5);
+        assertEquals(6, board.doATurn());
+    }
+
+    @Test
+    public void testFinish() {
+        board.setGameFinished(true);
+        assertEquals(true, board.isGameFinished());
+    }
+
+    @Test
     public void testBackToStart() {
         boolean isBackToStartPosition = false;
 
